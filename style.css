@@ -207,13 +207,6 @@ nav{
   }
 
 
-@media (min-width:800px){
-    .projects{
-        display:flex;
-        max-width:1000px;
-    }
-}
-
 .project-heading{
     color:var(--clr-accent);
     font-size:var(--fs-h3);
