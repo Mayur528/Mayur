@@ -220,7 +220,22 @@ nav{
     margin: 0.5em auto 1em;
 }
 
- 
+ /*--------------------------project images--------------------*/
+ .project-image{
+    display:block;
+    max-width:100%;
+    box-shadow:var(--bs);
+}
+@media(min-width:600px){ 
+ .project-image{
+    display: block; 
+    max-width: 50%;
+    margin: auto;
+} 
+}
+
+
+
 
 .live--links{
     padding: 0.4em;
